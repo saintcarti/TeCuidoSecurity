@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;        
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../IMG/FondoTeCuidoSecurity.jpg');
+}
+nav {
+    max-width: 150px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 20px; 
+    margin-bottom: 30px; 
+    position: relative; 
+    top: -10px; 
+    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+    border: solid blue;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal >li>a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal >li:hover{
+    background-color: blue;
+}
+.box{
+    height: 80px;
+    max-width: 250px;
+    margin: auto;
+    background-color: #333;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 7px 13px 37px rgb(220, 200, 180);
+    padding: 25px 35px;
+    margin-bottom: 20px;
+    border: solid blue;
+}
+.text{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+}
+.box-parrafo{
+    width: 400px;
+    height: 275px;
+    background: white;
+    margin: auto;
+    box-shadow: 7px 13px 37px;
+    padding: 20px 30px;
+    border: solid blue;
+    color: rgb(220, 200, 180);
+}
+.text-parrafo{
+    font-size: 17px;
+    color: black;
+}
